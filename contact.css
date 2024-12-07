@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.index{
+    height: auto;
+    background-color: rgb(239, 242, 241);
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.green_Background{
+    background-color: rgb(59, 93, 80);
+    width: 100vw;
+}
+
+
+.collapse .nav-item .nav-link {
+    color:rgb(154, 169, 165);
+    text-decoration: none;
+    margin: 0 5px;
+    position: relative;
+  }
+  
+  .nav-link::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 5px;
+    background: linear-gradient(90deg, #F1C40F, #F1C40F); /* Tweak the color if needed */
+    border-radius: 0;
+    transition: all 0.25s linear;
+  }
+  
+  .nav-link:hover::before {
+    width: 100%;
+  }
+
+  .collapse .nav-item .nav-link:hover{
+    color: white;
+  }
+  
+.left_content .show{
+    background-color:rgb(249, 191, 41);
+    font-weight: 600;
+}
+
+.left_content .explore{
+    border: 2px solid rgb(200, 196, 196);
+    font-weight: 600;
+    background-color: rgb(59, 93, 80);
+    color: white;
+}
+
+.left_content .explore:hover{
+    border: 2px solid white;
+}
+
+
+.left_content{
+    position: relative;
+    left: 90px;
+}
+
+.left_content .leftpara{
+    color:rgb(154, 169, 165);
+}
+
+
+.products .card .explore{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-weight: 600;
+    color: white;
+}
+
+
+
+.explore .products .cardhov:hover{
+
+    /* margin-bottom: 10px; */
+    padding: 10px;    
+    transition:all 1s ease;
+    /* border: 2px solid; */
+    /* background-color:rgb(239, 234, 234); */
+    /* overflow: hidden; */
+}
+
+.about{
+    margin-top: 100px;
+}
+
+
+.relative_sofa{
+    z-index: 1;
+    height: 550px;
+    width: 450px;
+    border-radius: 20px;
+    margin-left:40px;
+    margin-top: 38px;
+}
+
+
+.absolute_dot{
+    height: 255px;
+    width: 255px;
+}
+
+.left_content_image{
+    margin-top: 70px;
+}
+
+.Round1,.Round2,.Round3,.Round4{
+    background-color:rgba(154, 169, 165,0.35);
+    height: 2em;
+    width: 2em;
+}
+
+
+.greenDot{
+    height: 270px;
+    width: 270px;
+    margin-left:10px;
+}
+
+
+.chairRow{
+    margin-top: 150px;
+}
+
+.leftimagecontainer{
+    margin-top: 200px;
+}
+
+
+.leftSofa1{
+    border-radius: 15px; 
+    height: 490px; 
+    width: 420px;
+    margin-left: 100px;
+    border-radius: 20px;
+}
+.leftSofa2{
+    height: 200px;
+    width: 200px;
+    margin-left: 520px;
+    border-radius: 20px;
+}
+.leftSofa3{
+    height: 390px;
+    width: 325px;
+    border-radius: 20px;
+    margin-left: 400px;
+    border-radius: 20px;
+    margin-top: 220px;
+}
+@media screen and (max-width:540px) {
+    .leftSofa1{
+        border-radius: 15px; 
+        height: 200px; 
+        width: 200px;
+        margin-left: 50px;
+        border-radius: 20px;
+    }
+    .leftSofa2{
+        height: 130px;
+        width: 130px;
+        margin-left: 140px;
+        border-radius: 20px;
+    }
+    .leftSofa3{
+        height: 130px;
+        width: 130px;
+        border-radius: 20px;
+        margin-left: 20px;
+        border-radius: 20px;
+        margin-top: 150px;
+    }
+    .relative_sofa{
+        z-index: 1;
+        height: 300px;
+        width: 300px;
+        border-radius: 20px;
+        margin-left:20px;
+        margin-top: 33px;
+    }
+}
+
+
+.RightContainer{
+    margin-top: 100px;
+}
+
+.RightContainer .container .explore{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-weight: 600;
+    color: white;
+}
+
+.RightContainer .container ul li{
+    font-weight: 500;
+}
+
+.RightContainer .container ul li::marker{
+    font-size: 1.7em;
+    font-weight: bold;
+    color: black;
+}
+
+.backDiv{
+    position: absolute;
+    height: 6em;
+    width: 6em;
+    background-color:rgba(154, 169, 165,0.35);
+    border-radius: 20px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.chair{
+    position: relative;
+}
+
+.carouselExample
+{
+    height: 100vh;
+}
+
+
+
+.imageright img{
+    height: 250px;
+    width: 290px;
+}
+
+.social{
+    color:rgb(79, 74, 74);
+    background-color: rgb(213, 225, 221);
+    border-radius: 50%;
+    padding: 12px;
+    margin-right: 5px;
+}
+
+.social:hover{
+    background-color: rgb(59, 93, 80);
+    transition:all 0.25s linear ;
+    color: white;
+}
+
+.frunidet{
+    color:rgb(135, 127, 127);
+    font-size: 0.98rem;
+    line-height: 2;
+}
+
+.furniGrid1 a{
+    font-size:0.87rem;
+    color:rgb(74, 80, 78);
+}
+
+.furniGrid2 a{
+    font-size:0.87rem;
+    color:rgb(74, 80, 78);
+}
+
+.furniGrid3 a{
+    font-size:0.87rem;
+    color:rgb(74, 80, 78);
+}
+
+
+.furniGrid4 a{
+    font-size:0.87rem;
+    color:rgb(74, 80, 78);
+}
+
+.rightFoot{
+    font-size:0.90rem;
+    color:rgb(74, 80, 78);
+}   
+
+.leftFoot{
+    font-size:0.90rem;
+    color:rgb(74, 80, 78);  
+}
+
